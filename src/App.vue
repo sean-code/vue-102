@@ -8,16 +8,21 @@
   <page-viewer
     :page="pages[activePage]">
   </page-viewer>
+  <image>
+    
+  </image>
 </template>
 
 <script>
 import PageViewer from './components/PageViewer.vue';
 import Navbar from './components/Navbar.vue';
+import Image from './components/Image.vue';
 
 export default {
     components:{
         Navbar,
-        PageViewer
+        PageViewer,
+        Image
     },
         data() {
                 return {
